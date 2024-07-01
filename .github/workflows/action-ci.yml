@@ -90,4 +90,4 @@ jobs:
       name: Upload build outputs
       with:
         name: Build-${{ matrix.platform }}
-        path: ${{ github.workspace }}/output/Calculator
+        path: ${{ github.workspace }}/output/Calculator/AppPackages
