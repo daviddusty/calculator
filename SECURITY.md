@@ -34,7 +34,7 @@ understand the nature and scope of the possible issue:
   * Proof-of-concept or exploit code (if possible)
   * Impact of the issue, including how an attacker might exploit the issue
 
-This information will help us triage your report more quickly.
+This information will help us triage your report more quickly..
 
 ## Preferred Languages
 
