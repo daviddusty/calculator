@@ -9,7 +9,7 @@ on:
 jobs:
   defineBuilds:
     name: Define builds
-    runs-on: windows-latest 
+    runs-on: windows-2022
     env:
       isPR: ${{ github.event_name == 'pull_request' }}
     outputs:
@@ -51,7 +51,7 @@ jobs:
   build:
     needs: defineBuilds
     name: Build
-    runs-on: windows-latest
+    runs-on: windows-2022
     strategy:
       matrix:
         platform: ${{ fromJSON(needs.defineBuilds.outputs.platformList) }}
